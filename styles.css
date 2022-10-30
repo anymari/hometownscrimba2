@@ -1,0 +1,182 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    padding: 7px;
+    border-radius: 10%;
+    position: static;
+}
+
+.hometown-header {
+    background-image: url("https://yashicasailorboy.files.wordpress.com/2021/05/dscf0497-2.jpg?w=1024"); 
+    background-size: cover;
+    height: 330px;
+    width: auto;
+    padding: 60px 40px 60px 40px;  
+}
+
+.title {
+  background-color: #1D3557;
+  transition: all 500ms ease-in-out;
+  color: white;
+  width: 450px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 10px;
+  font-family: 'Freehand', cursive;
+  padding-bottom: 10px;
+  
+}
+.title:hover {
+  background-color: red;
+  color: white;
+}
+h1 {
+  overflow: hidden;
+}
+.old-text,
+.new-text {
+  display: block;
+  overflow: hidden;
+  transition: all 500ms ease-in-out;
+}
+.old-text {
+  height: auto;
+  opacity: 1;
+  width: auto;
+}
+.new-text {
+  color: #fff;
+  height: 0;
+  opacity: 0;
+  width: 0;
+}
+.title:hover .old-text {
+  height: 0px;
+  opacity: 0;
+  width: 0px;
+}
+.title:hover .new-text {
+  height: auto;
+  opacity: 1;
+  width: auto;
+}
+.about {
+  background-color: #457B9D;
+  transition: all 500ms ease-in-out;
+  color: white;
+  width: 450px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px
+  
+}
+.about:hover {
+  background-color: red;
+  color: white;
+}
+h1 {
+  overflow: hidden;
+}
+.old-text,
+.new-text {
+  display: block;
+  overflow: hidden;
+  transition: all 500ms ease-in-out;
+}
+.old-text {
+  height: auto;
+  opacity: 1;
+  width: auto;
+}
+.new-text {
+  color: #fff;
+  height: 0;
+  opacity: 0;
+  width: 0;
+}
+.about:hover .old-text {
+  height: 0px;
+  opacity: 0;
+  width: 0px;
+}
+.about:hover .new-text {
+  height: auto;
+  opacity: 1;
+  width: auto;
+}
+
+.activities {
+    background-color: #F1FAEE;
+    padding: 10px;
+}
+
+.three-activities {
+    display: flex;
+    font-family: 'Fjalla One', sans-serif;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    align-content:center;
+    position: static;
+    
+}
+img {
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #457B9D;
+}
+
+section {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guide {
+    
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: #A8DADC;
+    margin: 100px;
+    width: 450px;
+    height: 310px;  
+    padding: 5px 20px 0 20px;
+    border-radius: 7px;
+    border-bottom: thick solid #1D3557
+    
+}
+
+
+.myface {
+    height: 248.6px;
+    width: 200px;
+    border-radius: 7px;
+    border-style: none;
+    padding: 20px 10px 5px 10px;
+    
+}
+
+#quote {
+    font-style: italic;
+    font-family: 'Poor Story', cursive;
+}
+
